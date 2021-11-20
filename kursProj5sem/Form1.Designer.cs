@@ -223,7 +223,7 @@
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.Location = new System.Drawing.Point(780, 258);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(273, 183);
+            this.label6.Size = new System.Drawing.Size(273, 141);
             this.label6.TabIndex = 18;
             // 
             // Form1

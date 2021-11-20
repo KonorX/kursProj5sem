@@ -73,8 +73,7 @@ namespace kursProj5sem
             ManagementObjectSearcher searcherGPU = new ManagementObjectSearcher("SELECT * FROM Win32_VideoController");
             foreach (ManagementObject item in searcherGPU.Get())
             {
-                while (u < 2)
-                {
+                
                     gpuText+=$"Название {item["Caption"]}\n";
 
 
@@ -92,8 +91,8 @@ namespace kursProj5sem
                         }
 
                     }
-                    u++;
-                }
+                    
+                
             }
             
             label6.Text=gpuText; 
