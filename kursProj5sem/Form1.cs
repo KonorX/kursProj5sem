@@ -121,6 +121,7 @@ namespace kursProj5sem
 
         private void button2_Click(object sender, EventArgs e)
         {
+            CPUInfo.Cores.Clear();
             var CoreTask = Task.Factory
                 .StartNew(() =>
                 {
@@ -146,6 +147,7 @@ namespace kursProj5sem
 
 
                     }
+
                     FormCPU formCPU = new FormCPU();
                     formCPU.ShowDialog();
                 });
