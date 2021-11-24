@@ -47,6 +47,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.дискеслиНеРаботаетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -58,7 +59,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.обновитьToolStripMenuItem});
+            this.обновитьToolStripMenuItem,
+            this.дискеслиНеРаботаетToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1123, 24);
@@ -226,6 +228,13 @@
             this.label6.Size = new System.Drawing.Size(273, 141);
             this.label6.TabIndex = 18;
             // 
+            // дискеслиНеРаботаетToolStripMenuItem
+            // 
+            this.дискеслиНеРаботаетToolStripMenuItem.Name = "дискеслиНеРаботаетToolStripMenuItem";
+            this.дискеслиНеРаботаетToolStripMenuItem.Size = new System.Drawing.Size(160, 20);
+            this.дискеслиНеРаботаетToolStripMenuItem.Text = "диск C (если не работает)";
+            this.дискеслиНеРаботаетToolStripMenuItem.Click += new System.EventHandler(this.дискеслиНеРаботаетToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -284,5 +293,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ToolStripMenuItem дискеслиНеРаботаетToolStripMenuItem;
     }
 }

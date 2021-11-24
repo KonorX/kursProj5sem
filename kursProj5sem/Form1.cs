@@ -172,5 +172,14 @@ namespace kursProj5sem
             FormRAM formRAM = new FormRAM();
             formRAM.ShowDialog();
         }
+
+        private void дискеслиНеРаботаетToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormMem mem=    new FormMem();
+
+            mem.Show();
+
+
+        }
     }
 }

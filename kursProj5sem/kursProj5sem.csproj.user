@@ -8,6 +8,9 @@
     <Compile Update="FormCPU.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormMem.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormRAM.cs">
       <SubType>Form</SubType>
     </Compile>
